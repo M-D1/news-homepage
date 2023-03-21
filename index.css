@@ -1,12 +1,7 @@
 *{
  box-sizing: border-box;
 }
-body{
- margin: 0;
- padding: 0;
- font-family: 'Inter', sans-serif;
- 
-}
+
 :root{
  /* Primary  */
  --soft-orange:hsl(35, 77%, 62%);
@@ -17,6 +12,13 @@ body{
  --grayish-blue:hsl(233, 8%, 79%);
  --dark-grayish-blue:hsl(236, 13%, 42%);
  --very-dark-blue:hsl(240, 100%, 5%);
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+
+  background-color: var(--off-white);
 }
 
 header,.container{
@@ -33,7 +35,7 @@ li{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 1em 0 ;
+  margin: 5.5625em 0 3.4375em 0 ;
   
 
 }
@@ -90,7 +92,7 @@ a:hover{
   'p p2 side' 
   'd i v'
  ;
- gap: 10px;
+ gap: 20px;
 
 }
 
